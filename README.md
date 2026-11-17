@@ -76,4 +76,4 @@ Those decisions were made with an earlier version of the app, before the locking
 
 ## Before submitting
 
-Record the short walkthrough requested in the assessment, add a public repository or shared archive link, enter the actual time spent, and submit the form. Don't show the token or `.env` file in the recording. The form has not been submitted.
+The project is available in a public GitHub repository. To finish the assessment, record the short walkthrough, enter the actual time spent, and submit the form. Don't show the token or `.env` file in the recording.
