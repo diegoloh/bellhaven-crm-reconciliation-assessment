@@ -81,7 +81,8 @@ def create_account(p, persist, next_stage=None):
 
 def apply(p, persist):
     action = p["action"]
-    if action == "none":
+    if action in ("none", "review"):
+        # Review-only proposals record a local decision; an empty CRM PATCH is invalid.
         return {"result": "no CRM change"}
     if action == "update":
         check_precondition(p)
